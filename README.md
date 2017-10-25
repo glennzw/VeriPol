@@ -76,7 +76,7 @@ The 'config.ini' configuration file is used to specify server side variables rel
 
 ```
 [database]
-dmbs: sqlite:///keyStore.db
+dbms = sqlite:///keyStore.db
 
 [webserver]
 host = myserver.com
@@ -89,15 +89,15 @@ mode = smtp
 debug = True
 
 [smtp_settings]
-server: smtp.gmail.com
-port: 465
-ssl: True
-user: verifyme@gmail.com
-password: qbzunfnavprohz.rot13
+server = smtp.gmail.com
+port = 465
+ssl = True
+user = verifyme@gmail.com
+password = qbzunfnavprohz.rot13
 
 [amazon_aws]
-AWS_ACCESS_KEY: ZG9tc2JlYXJkaXNmaWVyY2U=
-AWS_SECRET_KEY: Y2F0c2VhdHBsYWluY3Jpc3Bz
+AWS_ACCESS_KEY = ZG9tc2JlYXJkaXNmaWVyY2U=
+AWS_SECRET_KEY = YnV0Y2hyaXNiZWFyZGlzYmV0dGVy
 AWS_REGION = us-west-2
 ```
 
